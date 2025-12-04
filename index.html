@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Personal Portfolio">
+    <meta name="author" content="Bhoomika Chaudhary">
+    <title>Personal Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    
+    <a href="https://drive.google.com/file/d/13YThEbiXgziGIdesRJ4Io-AUi31HTYGj/view?usp=drivesdk"
+       target="_blank">
+        <button id="res">Resume</button>
+    </a>
+
+
+    
+    <header id="header">
+        <h1 class="animated-text"><strong>Bhoomika Chaudhary</strong></h1>
+        <div class="slide-container">
+            <p class="slide-text">I'm Bhoomika — a passionate web developer and curious learner. Currently focused on Java and game development. Learning software development and the Unity Engine.</p>
+        </div>
+        
+        <br><br><br><br>
+    </header>
+
+    
+    <h3 class="slide-text"><b>Education</b></h3>
+    <h5 class="slide-text">
+        2nd-year BCA student at Manav Rachna International Institute of Research and Studies.
+        Class Representative, disciplined, curious, active listener, and dedicated student.
+    </h5>
+
+    
+    <h3 class="slide-text">Technical Skills</h3>
+    <div class="grid">
+
+        <div class="grid-box" onclick="toggleSkill('C')" data-aos="fade-left">
+            <h4>C</h4>
+            <p id="C" class="hidden">Basics and Data Structures & Algorithms</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('java')" data-aos="fade-left">
+            <h4>Java</h4>
+            <p id="java" class="hidden">Basics, API Integration, and Spring Boot</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('python')" data-aos="fade-left">
+            <h4>Python</h4>
+            <p id="python" class="hidden">Advanced level and machine learning</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('frontend')" data-aos="fade-left">
+            <h4>HTML, CSS, JavaScript</h4>
+            <p id="frontend" class="hidden">Demonstrated in this portfolio</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('dbms')" data-aos="fade-left">
+            <h4>DBMS</h4>
+            <p id="dbms" class="hidden">Strong knowledge of SQL</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('game')" data-aos="fade-left">
+            <h4>Game Development</h4>
+            <p id="game" class="hidden">Learning through the Unity Engine</p>
+        </div>
+
+        <div class="grid-box" onclick="toggleSkill('csharp')" data-aos="fade-left">
+            <h4>C#</h4>
+            <p id="csharp" class="hidden">Currently learning</p>
+        </div>
+
+    </div>
+
+    
+    <div class="certi">
+        <h3 class="slide-text">Certifications</h3>
+
+        <ul>
+            <li><div class="certi-box" data-aos="fade-left">Dean's List (Top 5% students) </div></li>
+            <li><div class="certi-box" data-aos="fade-left">CDC Maestro</div></li>
+            <li><div class="certi-box" data-aos="fade-left">Intro to Machine Learning (Kaggle)</div></li>
+            <li><div class="certi-box" data-aos="fade-left">Business Analytics for Management Decisions (NPTEL)</div></li>
+            <li><div class="certi-box" data-aos="fade-left">E-Business (NPTEL)</div></li>
+            <li><div class="certi-box" data-aos="fade-left">Basketball North Zone</div></li>
+            <li><div class="certi-box" data-aos="fade-left">Basketball MNIT Tech Fest</div></li>
+            <li><div class="certi-box" data-aos="fade-left">Hostel Cricket Tournament Winner</div></li>
+        </ul>
+    </div>
+
+    
+    <h3 class="slide-text">Soft Skills</h3>
+    <div class="grid2">
+        <ul>
+            <div class="box2" onclick="toggleSkill('ls')" data-aos="fade-up">
+                Leadership skills
+                <p id="ls" class="hidden">Class Representative of the class</p>
+            </div>
+
+            <div class="box2" onclick="toggleSkill('al')" data-aos="fade-up">
+                Active Learner
+                <p id="al" class="hidden">Earned certifications from NPTEL and Kaggle</p>
+            </div>
+
+            <div class="box2" onclick="toggleSkill('tp')" data-aos="fade-up">
+                Team Player
+                <p id="tp" class="hidden">Cricket and Basketball player</p>
+            </div>
+
+            <div class="box2" onclick="toggleSkill('per')" data-aos="fade-up">
+                Persistence
+                <p id="per" class="hidden">I keep asking, testing, fixing, and improving until it works.</p>
+            </div>
+
+            <div class="box2" onclick="toggleSkill('com')" data-aos="fade-up">
+                Communication
+                <p id="com" class="hidden">I communicate my ideas clearly.</p>
+            </div>
+        </ul>
+        
+
+    </div>
+
+    
+    <h3 class="slide-text">Projects</h3>
+    <div class="proj">
+        <a href="https://bhoomi9393.github.io/Codsoft-Web-Development/Landing%20Page/index.html" target="_blank">
+            <button>Game Landing Page</button>
+        </a>
+
+        <a href="https://github.com/Bhoomi9393/GlitchBorn" target="_blank">
+            <button>Glitchborn</button>
+        </a>
+    </div>
+
+    
+    <nav class="social-nav">
+        <a href="https://github.com/Bhoomi9393" target="_blank" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/bhoomika-chaudhary-04308934b"
+           target="_blank" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:bhoomi.init@gmail.com" title="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </nav>
+
+    
+    <canvas id="bgcanvas"></canvas>
+
+    <script src="script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+        function toggleSkill(id) {
+            const element = document.getElementById(id);
+            element.classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>
